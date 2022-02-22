@@ -2,7 +2,7 @@ import Button from '@mui/material/Button';
 
 const NavBanner = () => {
   return (
-    <div style={{height:'100vh',width:'100%'}}>
+    <div style={{minHeight:'100vh',width:'100%'}}>
         <nav style={{width:'100%',display:'flex',justifyContent:'space-between',alignItems:'center',height:100}}>
             
             <Button variant="text" style={{height:60,width:100,cursor:'pointer',fontSize:20,fontWeight:400}}>MY ART</Button>
